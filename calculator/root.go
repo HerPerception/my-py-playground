@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"os"
 	"strconv"
 )
 
-func main() {
+func Root() {
 	numstr := os.Args[1]
 	number, err := strconv.Atoi(numstr)
 	if err != nil {
@@ -41,4 +42,5 @@ func main() {
 		}
 	}
 	fmt.Println(root)
+	fmt.Println(math.Sqrt(288))
 }
