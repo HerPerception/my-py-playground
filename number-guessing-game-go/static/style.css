@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 40px;
+    height: auto;
+
+}
+
+input {
+    color: rgb(45, 230, 8);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #222;
+    border-color: rgb(4, 170, 148);
+}
+
+.resp-section {
+    color: white;
+    background-color: #1e1e1e;
+    padding-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card{
+    max-width: 400px;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+button {
+    background-color: rgb(2, 36, 58);
+    border: 2px solid rgb(226, 51, 7);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 15px;
+}
