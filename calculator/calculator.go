@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Calculator() {
 	// STEP 1: Initialize a scanner to read user input from the terminal.
 	scanner := bufio.NewScanner(os.Stdin)
 	var input string
