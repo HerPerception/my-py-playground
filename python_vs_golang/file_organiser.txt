@@ -1,0 +1,35 @@
+## 📁 Python Project Task: The Automated File Organizer## Objective
+Write a Python script that automatically cleans up a cluttered target directory (like your Downloads or Desktop folder) by scanning all files and sorting them into organized subfolders based on their file extensions.
+------------------------------
+## Phase 1: Project Setup & Variables
+
+* Select a specific, crowded folder on your computer to serve as your Target Directory.
+* Define a mapping structure (categories) to group similar file extensions together:
+* Images: .jpg, .jpeg, .png, .gif
+   * Documents: .pdf, .docx, .txt, .xlsx
+   * Audio: .mp3, .wav
+   * Videos: .mp4, .mkv, .mov
+   * Archives: .zip, .tar, .rar
+
+------------------------------
+## Phase 2: Execution Logic & Workflow
+Your script must execute the following sequential steps when run:
+
+   1. Scan: Open and read the contents of the target directory.
+   2. Filter: Loop through every item found. Identify and process only files, safely skipping any existing folders.
+   3. Analyze: Extract the file extension from the file name (e.g., locate .pdf from invoice.pdf).
+   4. Match: Look up the extension in your mapping structure to find its destination category folder.
+   5. Create: Check if that destination folder already exists. If it does not, create it automatically.
+   6. Move: Relocate the file from the root directory into the correct subfolder.
+   7. Catch-All: Move any unrecognized file extensions into a fallback folder named Others.
+
+------------------------------
+## Phase 3: Success Criteria
+The task is successfully completed when:
+
+* The original target folder contains zero loose files.
+* No existing folders or files are accidentally deleted or overwritten.
+* Running the script a second time on the newly cleaned folder causes zero errors.
+
+Would you like the technical requirements (the specific Python modules used for this) or a step-by-step testing strategy to safely run it without losing files?
+
