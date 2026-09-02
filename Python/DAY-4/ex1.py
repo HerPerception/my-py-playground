@@ -2,7 +2,7 @@ import sys
 temperature = input("Input valid Fareinheit temperature value: \n")
 try:
    temperature = temperature.replace("F", "")
-   print(temperature)
+  # print(temperature)
    temperature = int(temperature)
 except ValueError:
     print("Invalid input. Try again.")

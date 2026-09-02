@@ -1,0 +1,3 @@
+Exercise 1: Create a string containing a number and convert it before adding 10.
+Exercise 2: Create a float price and convert it to an integer; observe the result.
+Exercise 3: Ask what type each value in a small profile should have and justify your choice.
