@@ -5,7 +5,7 @@ def passing_scores(scores):
             passed.append(scores[index])
     return "Hello"#passed
 
- passed = passing_scores([49, 50, 80, 65])
+passed = passing_scores([49, 50, 80, 65])
 assert isinstance(passed, list), "Passed datatype must be a list"
 
 
