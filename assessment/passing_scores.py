@@ -25,4 +25,21 @@ assert passing_scores([]) == [], "Empty list must return an empty list."
 #        all(score in passed for score in original if score >= 50), \
 #        "Pass scores missing in filtered list"
 
+# ===============================================================================================================================================
 
+# Original Function:
+
+# def passing_scores(scores):
+#     passed = []
+#     for index in range(len(scores) - 1):
+#         if scores[index] > 50:
+#             passed.append(scores[index])
+
+#     return passed
+# print(passing_scores([49, 50, 80, 65]))
+
+# CURRENT OUTPUT: [80]
+# The two independent defects:
+# 1. > 50 should be >= 50, this excludes the boundary score 50, although the requirement says scores greater than or equal to 50 should pass.
+# 2. range(len(scores)-1) skips the last element. 65 is never checked.
+# ===============================================================================================================================================
