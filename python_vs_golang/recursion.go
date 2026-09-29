@@ -7,11 +7,9 @@ The example is implememnted in Golang.
 
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(tri_recursion(6))
-}
+//	func main() {
+//		fmt.Println(tri_recursion(6))
+//	}
 func tri_recursion(k int) int {
 	result := 0
 	if k > 0 {

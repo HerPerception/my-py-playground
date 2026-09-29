@@ -1,6 +1,5 @@
 package main
 
-import "fmt"
 func Age_Category(age int) string {
 	if age < 0 {
 		return "Invalid age"
@@ -13,6 +12,7 @@ func Age_Category(age int) string {
 	}
 	return "Senior"
 }
-func main() {
-	fmt.Println(Age_Category(17))
-}
+
+// func main() {
+// 	fmt.Println(Age_Category(17))
+// }
